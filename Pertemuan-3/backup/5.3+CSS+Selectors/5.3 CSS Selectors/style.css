@@ -1,0 +1,28 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+/* -Number one */
+p {
+  color: red;
+}
+/* -Number Two */
+.note {
+  font-size: 20px;
+}
+/* -Number Three */
+#id-selector-demo {
+  color: green;
+  font-size: 1rem;
+}
+/* -Number Four */
+li[value="4"] {
+  color: blue;
+  font-size: 20pt;
+}
+/* -Number Five */
+* {
+  text-align: center;
+}
+/* Write your CSS below, don't change the rules above. */
