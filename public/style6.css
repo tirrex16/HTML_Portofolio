@@ -1,0 +1,17 @@
+h1,
+h2 {
+  color: blueviolet;
+}
+
+ul {
+     color: black;
+   }
+.box p {
+  color: red;
+}
+.box .list li {
+  color: blue;
+}
+.box .list .done {
+  color: green;
+}
