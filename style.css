@@ -47,7 +47,9 @@
     height: 910px;
     width: 1720px;
     background-color: #F3F3F3;
-    border-radius: 60px;
+    /* border-radius: 60px; */
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
   }
   
   
@@ -395,7 +397,9 @@
   /*  */
   
   .container img {
-    border-radius: 60px;
+    /* border-radius: 60px; */
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
     height: 910px;
     width: 1720px;
     margin-left: 70px;
