@@ -17,6 +17,27 @@
   font-family: Font4;
   src: url(assets/fonts/Fontspring-DEMO-visbycf-regular.otf);
 }
+
+@font-face {
+  font-family: Font5;
+  src: url(assets/fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Font6;
+  src: url(assets/fonts/montserrat/Montserrat-Medium.otf);
+}
+
+@font-face {
+  font-family: Font7;
+  src: url(assets/fonts/montserrat/Montserrat-Medium.otf);
+}
+
+@font-face {
+  font-family: Font8;
+  src: url(assets/fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -32,35 +53,17 @@ body {
 
 }
 
-.parent {
-  position: relative;
-}
-
-.background {
-  width: 100%;
-  height: 1080px;
-  background-position: center;
-  background-size: cover;
-  /* background-image: url("../assets/marek-piwnicki-jIlMBLqvnL8-unsplash.jpg"); */
-  /* background-image: url("../assets/s6.png"); */
-  /* transform: rotate(180deg); */
-  position: fixed;
-}
-
 .container {
   position: relative;
 }
 
 .scroll-left {
-  width: 2000px;
-  height: 500px;
   left: 0px;
   top: 70px;
   overflow: hidden;
-  position: fixed; /* Mengubah posisi menjadi absolute */
+  position: relative; /* Mengubah posisi menjadi absolute */
   background: transparent;
   color: orange;
-  border: 0px solid rgb(255, 0, 0);
   display: flex;
   margin-left: 0px;
   z-index: 0;
@@ -71,8 +74,8 @@ body {
   font-size: 260px;
   color: #1F1E1E;
   margin: 0;
-  position: absolute;
-  top: 60px;
+  position: fixed;
+  top: 120px;
   left: 0px;
   /* z-index: 1; */
 }
@@ -172,6 +175,15 @@ body {
   border-radius: 15px;
 }
 
+.police2 {
+  position: absolute;
+  top: 15px;
+  left: 185px;
+  width: 10px;
+  height: 150px;
+  border-radius: 15px;
+}
+
 .july-2021-for-instagram-feed-category-social-media {
   color: #000000;
   text-align: left;
@@ -203,10 +215,88 @@ body {
   justify-content: center;
 }
 
+/* Halaman 2 */
+.landing-page {
+  margin-bottom: 1rem;
+}
+
+.Mockup1 {
+  position: absolute;
+  left: 50px;
+  width: 65%;
+  height: 100%;
+  top: 650px;
+  z-index: 1;
+}
+
+.Mockup2 {
+  position: absolute;
+  left: 230px;
+  top: 820px;
+  height: 750px;
+  z-index: 0;
+}
+
+.UIDESIGN {
+  position: absolute;
+  top: 1000px;
+  left: 1200px;
+  font-size: 40px;
+  font-family: Font5;
+  color: #1F1E1E;
+}
+.Logo1 {
+  position: relative;
+  height: 40px;
+  top: 935px;
+  left: 1200px;
+}
+
+.Boxcaption .CaptionHal2 {
+  position: absolute;
+  display: block;
+  text-align: justify;
+  width: 390px;
+}
+
+.CaptionHal2 {
+  font-family: Font6;
+  position: relative;
+  font-size: 17px;
+  top: 1130px;
+  left: 1200px;
+  color: #1F1E1E;
+}
+
+.behance {
+  position: absolute;
+  font-family: Font7;
+  top: 1280px;
+  left: 1300px;
+  font-size: 19px;
+}
+
+.behancetirrex {
+  position: absolute;
+  font-family: Font8;
+  top: 1280px;
+  left: 1430px;
+  font-size: 19px;
+}
+
+.Behancelogo {
+  position: absolute;
+  height: 35px;
+  top: 1275px;
+  left: 1255px;
+  transform: rotate(90deg);
+}
+
+
 .footer  {
   /* box-sizing: border-box; */
-  position: relative;
-  top: 850px;
+  position: absolute;
+  
   background-color: #1C1C1C;
   width: 100%;
   height: 370px;
@@ -262,7 +352,25 @@ body {
   position: absolute;
   left: 450px;
   top: 100px;
+  text-decoration:none;
 }
+
+.home:hover {
+  color: #ffbb00;
+}
+
+.work:hover {
+  color: #ffbb00;
+}
+
+.about:hover {
+  color: #ffbb00;
+}
+
+.instagram:hover {
+  color: #ffbb00;
+}
+
 .address {
   color: #b0b0b0;
   text-align: left;
@@ -306,6 +414,7 @@ body {
   left: 105px;
   top: 270px;
 }
+
 .linkedin {
   color: #b0b0b0;
   text-align: left;
@@ -315,6 +424,11 @@ body {
   position: absolute;
   left: 450px;
   top: 125px;
+  text-decoration:none;
+}
+
+.linkedin:hover {
+  color: #ffbb00;
 }
 
 .google-map {
@@ -329,4 +443,8 @@ body {
   top: 70px;
   position: absolute;
   border-radius: 20px;
+}
+
+.Hal2 {
+  height: 800px;
 }
