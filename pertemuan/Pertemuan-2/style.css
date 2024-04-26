@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Font1;
+    src: url(../../assets/fonts/montserrat/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(../../assets/fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: Font3;
+    src: url(../../assets/fonts/Fontspring-DEMO-visbycf-regular.otf);
+}
+
+body {
+    /* position: fixed; */
+    margin: 0;
+    padding: 0;
+    background: #F3F3F3;
+}
+
+.Icon h2 {
+    position: relative;
+    font-size: 24px;
+    margin-top: 50px;
+    left: 40px;
+    font-family: Font2;
+}
+
+.navbar div {
+    padding-left: 70px;
+    font-family: Font1;
+}
+
+.navbar {
+    display: flex;
+    color: #1F1E1E;
+    position: absolute;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 20px;
+    left: 56%;
+    top: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1F1E1E;
+}
+
+.picture img {
+    position: relative;
+    left: 160px;
+    width: 20%;
+    top: 100px;
+
+}
+
+.greeting {
+    position: absolute;
+}
+
+.data table {
+    position: relative;
+}
+.data td {
+    font-family: Font1;
+    border-color: transparent;
+    
+}
+.data {
+    text-align: justify;
+    position: relative;
+    left: 620px;
+    top: -340px;
+}
+
+.data h2 {
+    position: relative;
+    font-family: Font2;
+    top: 15px;
+}
+
+.pengalaman {
+    position: relative;
+    left: 620px;
+    top: -340px;
+}
+
+.pengalaman h2 {
+    position: relative;
+    font-family: Font2;
+    top: 13px;
+}
+
+.pengalaman th {
+    font-family: Font1;
+}
+
+.pengalaman td {
+    text-align: left;
+    font-size: 15px;
+    font-family: Font3;
+}
+
+.software {
+    position: relative;
+    top: -740px;
+    left: 1250px;
+}
+
+.software h2 {
+    font-family: Font2;
+}
+
+.software img {
+    top: -10px;
+    left: -15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.logobranding img {
+    position: relative;
+    filter: drop-shadow(0 0 0.75rem #1f1f1f);
+    width: 14.5%;
+    top: -730px;
+    left: 1270px;
+
+}
