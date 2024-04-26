@@ -14,7 +14,7 @@
 }
 
 body {
-    /* position: fixed; */
+    position: fixed;
     margin: 0;
     padding: 0;
     background: #F3F3F3;
@@ -65,7 +65,7 @@ body {
     position: relative;
 }
 .data td {
-    font-family: Font1;
+    font-family: Font3;
     border-color: transparent;
     
 }
@@ -73,7 +73,7 @@ body {
     text-align: justify;
     position: relative;
     left: 620px;
-    top: -340px;
+    top: -400px;
 }
 
 .data h2 {
@@ -85,7 +85,8 @@ body {
 .pengalaman {
     position: relative;
     left: 620px;
-    top: -340px;
+    top: -410px;
+    border-collapse: collapse; /* Menggabungkan border sel untuk tampilan yang lebih rapi */
 }
 
 .pengalaman h2 {
@@ -95,18 +96,29 @@ body {
 }
 
 .pengalaman th {
+    position: relative;
     font-family: Font1;
+    background-color: #f2f2f2; /* Warna latar belakang untuk header kolom */
+    padding: 8px; /* Ruang dalam di sekitar teks di header kolom */
 }
 
 .pengalaman td {
+    position: relative;
     text-align: left;
     font-size: 15px;
     font-family: Font3;
+    padding: 8px; /* Ruang dalam di sekitar teks di sel data */
 }
+
+/* Alternatif warna untuk baris genap */
+.pengalaman tr:nth-child(even) {
+    background-color: #f9f9f9; /* Warna latar belakang untuk baris genap */
+}
+
 
 .software {
     position: relative;
-    top: -740px;
+    top: -885px;
     left: 1250px;
 }
 
@@ -123,9 +135,56 @@ body {
 
 .logobranding img {
     position: relative;
-    filter: drop-shadow(0 0 0.75rem #1f1f1f);
+    filter: drop-shadow(0 0 0.80rem rgba(31, 31, 31, 0.3)); /* Menggunakan rgba untuk warna dengan opacity */
     width: 14.5%;
-    top: -730px;
-    left: 1270px;
+    top: -860px;
+    left: 1254px;
+}
 
+.year {
+    position: relative;
+    background-color: #ff6000;
+    transform: rotate(-90deg);
+    top: -1000px;
+    left: 915px;
+}
+
+.year h2 {
+    position: relative;
+    font-size: 250px;
+    left: 1070px;
+    font-family: Font2;
+    color: #1F1E1E;
+}
+
+.copyright h1{
+    font-family: Font1;
+    position: absolute;
+    top: 900px;
+    font-size: 13px;
+    left: 46%;
+    opacity: 20%;
+}
+
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 20px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
